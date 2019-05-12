@@ -1,0 +1,125 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Lucida Handwriting;
+	font-size: 1.2em;
+}
+header{
+	background-color: #234567;
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+}
+.logo img{
+	padding-top: 15px;
+	height: 90px;
+	width: 200px;
+}
+.name{
+	flex-direction: column; 
+}
+.title{
+	font-family: Brush Script MT; 
+	font-style: bold; 
+	font-size: 75px;
+}
+.sub-title{
+	font-family: Helvetica;
+	font-style: italic;
+	font-size: 30px;
+}
+
+nav{
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #436587;
+}
+nav ul {
+	opacity: 0.8;
+	text-align: justify-all;
+	font-size: 20px;
+}
+nav ul a{
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+nav ul a:hover{
+	background-color: #000000;
+}
+nav ul ul{
+	display: none;
+}
+nav ul:hover ul{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+footer{
+	background-color: #234567;
+	text-align: center;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
+
+
+footer .media ul {
+	list-style: none;
+	text-align: center;
+}
+footer .media ul a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+footer .policy{
+	
+	border: 2px solid rgba(0,0,100,0.8);
+	text-align: center;
+	grid-column: 1/span 2;
+}
+
+@media screen and (max-width:800px){
+	.logo img {
+		width:75px; 
+
+	}
+	.title{
+		font-size: 50px;
+	}
+	.sun-title{
+		font-size: 25px;
+	}
+	nav{
+		flex-direction: column;
+	}
+	nav ul{
+		width: 96%;
+		margin: 1%;
+		padding: 1%;
+	}
+	section img{
+		width: 90%;
+		height: 50%%;
+
+	}
+	.images img{
+		width: 100%;
+		height: auto;
+	}
+	section{
+		flex-direction: column;
+	}
+	.intro{
+		width: 96%;
+		order: 1;
+	}
