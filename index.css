@@ -34,26 +34,30 @@ nav{
 	flex-direction: row;
 	justify-content: space-around;
 	background-color: #436587;
-}
-nav ul {
 	opacity: 0.8;
 	text-align: justify-all;
 	font-size: 20px;
-}
-nav ul a{
 	text-decoration: none;
 	color: #FFFFFF;
 
 }
-nav ul a:hover{
+.home{
+	color: #FFFFFF;
+}
+.review{
+	color: #FFFFFF;
+}
+.glossary{
+	color: #FFFFFF;
+}
+.jobs{
+	color: #FFFFFF;
+}	
+.tut{
+	color: #FFFFFF;
+}
+nav a:hover{
 	background-color: #000000;
-}
-nav ul ul{
-	display: none;
-}
-nav ul:hover ul{
-	display: flex;
-	flex-direction: column;
 }
 section{
 	display: flex;
@@ -166,10 +170,7 @@ footer .policy{
 		height: 50%%;
 
 	}
-	.images img{
-		width: 100%;
-		height: auto;
-	}
+	
 	section{
 		flex-direction: column;
 	}

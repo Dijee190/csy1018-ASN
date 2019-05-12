@@ -1,0 +1,152 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Lucida Handwriting;
+	font-size: 1.2em;
+}
+header{
+	background-color: #234567;
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+}
+.logo img{
+	padding-top: 15px;
+	height: 90px;
+	width: 200px;
+}
+.name{
+	flex-direction: column; 
+}
+.title{
+	font-family: Brush Script MT; 
+	font-style: bold; 
+	font-size: 75px;
+}
+.sub-title{
+	font-family: Helvetica;
+	font-style: italic;
+	font-size: 30px;
+}
+
+nav{
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #436587;
+	opacity: 0.8;
+	text-align: justify-all;
+	font-size: 20px;
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+.home{
+	color: #FFFFFF;
+}
+.review{
+	color: #FFFFFF;
+}
+.glossary{
+	color: #FFFFFF;
+}
+.jobs{
+	color: #FFFFFF;
+}	
+.tut{
+	color: #FFFFFF;
+}
+nav a:hover{
+	background-color: #000000;
+}
+section{
+	display: flex;
+	flex-direction: column;
+}
+.info{
+	display: flex;
+	flex-direction: row;
+}
+
+.webpage{
+	border: 4px solid rgba(0,0,255,0.5);	
+	margin: 2%;
+	padding: 2%;
+}
+.tutorial{
+	border: 4px solid rgba(0,0,255,0.5);	
+	margin: 2%;
+	padding: 2%;
+	width:30%;
+}
+
+.video{
+	display: flex;
+	flex-direction: row;
+	border: 4px solid rgba(0,0,118,0.5);
+}
+.v1{
+	text-align: left;
+}
+.v2{
+	text-align: left;
+}
+.v3{
+	text-align: left;
+}
+
+
+
+footer{
+	background-color: #234567;
+	text-align: center;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
+
+
+footer .media{
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+footer .policy{
+	
+	border: 2px solid rgba(0,0,100,0.8);
+	text-align: center;
+	grid-column: 1/span 2;
+}
+
+@media screen and (max-width:800px){
+	.logo img {
+		width:75px; 
+
+	}
+	.title{
+		font-size: 50px;
+	}
+	.sun-title{
+		font-size: 25px;
+	}
+	nav{
+		flex-direction: column;
+	}
+	nav ul{
+		width: 96%;
+		margin: 1%;
+		padding: 1%;
+	}
+	
+	section{
+
+		flex-direction: column;
+	}
+	.info{
+		flex-direction: column;
+	}
+	.video{
+		flex-direction: column;
+	}
